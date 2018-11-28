@@ -1,0 +1,8 @@
+mat-form-field {
+  display: flex;
+}
+
+::ng-deep .mat-input-wrapper {
+  background: green;
+  width:400px !important;
+}

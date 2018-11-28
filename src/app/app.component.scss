@@ -1,0 +1,15 @@
+mat-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pt-logo {
+  &, & > img {
+    max-height: 40px; // Half the hight of the image
+  }
+}
+
+.pt-main-container {
+  padding: 0 1em 1em;
+}
